@@ -1,0 +1,16 @@
+#libevent pkg-config source file
+
+prefix=/root/devspace/brpc-thirdparty/libevent/2.1.12/build/output
+exec_prefix=/root/devspace/brpc-thirdparty/libevent/2.1.12/build/output
+libdir=/root/devspace/brpc-thirdparty/libevent/2.1.12/build/output/lib
+includedir=/root/devspace/brpc-thirdparty/libevent/2.1.12/build/output/include
+
+Name: libevent_core
+Description: libevent_core
+Version: 2.1.12
+Requires:
+Conflicts:
+Libs: -L${libdir} -levent_core
+Libs.private: 
+Cflags: -I${includedir}
+
